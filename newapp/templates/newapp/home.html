@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'newapp/style.css' %}">
+</head>
+<body>
+    <h1>{{ title }}</h1>
+    <p>This is the homepage.</p>
+    <a href="{% url 'contact' %}">Contact Us</a>
+</body>
+</html>
